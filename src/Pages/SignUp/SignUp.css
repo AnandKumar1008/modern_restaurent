@@ -1,0 +1,50 @@
+.sign_up_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign_up_form form {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-black);
+  padding: 1rem 4rem 4rem 4rem;
+}
+.sign_up_form input {
+  padding: 0.8rem 1rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 0.4rem;
+}
+.sign_up_form button {
+  width: 20rem;
+  font-weight: bold;
+  background-color: var(--color-golden);
+  font-family: var(--font-base);
+  font-weight: bold;
+  border: none;
+  padding: 0.8rem 1rem;
+  margin: 1rem;
+}
+.sign_up_form p {
+  display: block;
+  max-width: 20rem;
+  padding: 0 0 0 1rem;
+  font-family: var(--font-alt);
+  color: var(--color-crimson);
+  font-size: 14px;
+}
+.sign_up_form h1 {
+  text-align: center;
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  margin: 0 0 2rem 0;
+}
+.sign_up_form h1 span {
+  font-size: 3rem;
+  font-family: var(--font-base);
+}
+.sign_up_form_sign_in {
+  cursor: pointer;
+}

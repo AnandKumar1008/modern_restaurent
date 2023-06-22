@@ -1,0 +1,75 @@
+.today_special{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: var(--color-black);
+    font-family: var(--font-base);
+    font-size: 20px;
+}
+.today_special >*{
+    flex: 1;
+}
+.today_special-img{
+flex: 1;
+}
+ .today_special-img button{
+    font-family: var(--font-base);
+    /* background-color: var(--color-golden); */
+    font-weight: bold;
+    border: none;
+    display: block;
+    margin: 3rem auto;
+    padding:0.5rem 1rem;
+    text-align: center;
+}
+.today_special-img img{
+    max-width: 100%;
+}
+.today_special-wine_beer,.today_special-cocktails{
+    margin: 2rem;
+}
+.today_special-wine_beer_items h2{
+    text-align: center;
+color: var(--color-white);
+margin: 2rem;
+}
+
+.today_special-wine_beer_items table tr,.today_special-cocktails_items table tr {
+    color: var(--color-golden);
+    margin: 2rem 0;
+    /* height: 2rem; */
+}
+/* table  p{
+    color: var(--color-crimson);
+    font-size: 14px;
+    margin-bottom: 2rem;
+    font-family: var(--font-alt);
+} */
+.today_special-wine_beer_items table tr:nth-child(2n){
+    color: var(--color-crimson);
+    font-size: 14px;
+    font-family: var(--font-alt);
+    /* margin-bottom: 5rem; */
+}
+.today_special-cocktails_items table tr:nth-child(2n){
+    color: var(--color-crimson);
+    font-size: 14px;
+    font-family: var(--font-alt);
+    /* margin-bottom: 20px; */
+}
+
+
+.today_special-cocktails_items h2{
+    text-align: center;
+ color: var(--color-white);
+ margin: 2rem 0;
+}
+
+.today_special-wine_beer_items table  div,.today_special-cocktails_items table div{
+    width: 50px;
+   height: 1px;
+background: #FAFAFA;
+margin: 1rem 2rem;
+}
+

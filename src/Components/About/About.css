@@ -1,0 +1,71 @@
+.about_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 30px;
+  /* background:url('./Components/Images/bg.png') */
+}
+
+.about_container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_container-about h1,.about_container-history h1{
+  color: var(--color-golden);
+  /* text-align: end; */
+}
+.about_container-about p,.about_container-history p{
+    color: var(--color-crimson);
+    
+}
+.about_container-about p{
+    text-align: end;
+    font-family: var(--font-alt);
+    text-align: start;
+    margin:24px 0 ;
+    
+}
+.about_container-history p{
+    text-align: start;
+    font-family: var(--font-alt);
+    margin:24px 0 ;
+}
+.about_container-about h1{
+    font-family: var(--font-base);
+    text-align: end;
+    margin-bottom: 24px;
+}
+.about_container-history h1{
+    font-family: var(--font-base);
+    margin-bottom: 24px;
+}
+.about_container-img  img{
+  /* width: 703px; */
+  /* height: 84px; */
+  max-width: 100%;
+}
+.about_container-history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_container-about_us button{
+    /* text-align: end; */
+    float: right;
+
+}
+.about_container-about_us button,.about_container-history_our button{
+    background-color: var(--color-golden);
+    border: none;
+    font-weight: bold;
+    font-family: var(--font-base);
+    padding: 8px 10px;
+    cursor: pointer;
+    /* float: right; */
+    /* align-items: end; */
+
+}

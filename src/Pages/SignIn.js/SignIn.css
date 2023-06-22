@@ -1,0 +1,49 @@
+.sign_in {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+}
+.sign_in_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sign_in_form form {
+  background-color: var(--color-black);
+  padding: 1rem 4rem 4rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100%;
+}
+.sign_in_form  h1 {
+  margin-bottom: 2rem;
+}
+.sign_in_form  input,.sign_in_form button {
+  padding: 0.8rem 1rem;
+  margin: 1rem;
+  width: 20rem;
+}
+.sign_in_form button {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--color-golden);
+  font-family: var(--font-base);
+  font-weight: bold;
+}
+.sign_in_form_forgot_password {
+  width: 20rem;
+  font-family: var(--font-alt);
+  font-size: 14px;
+  color: var(--color-crimson);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign_in_form_forgot_password span {
+  cursor: pointer;
+}

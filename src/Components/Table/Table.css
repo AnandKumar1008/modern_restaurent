@@ -1,0 +1,65 @@
+.restaurent-table{
+    background-color: var(--color-black);
+    color: var(--color-golden);
+    text-align: center;
+    font-family: var(--font-base);
+    /* max-width: 100%; */
+}
+.restaurent-table_heading{
+    /* margin: 2rem 0; */
+    padding: 2rem;
+}
+.restaurent-table_heading p{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.restaurent-table_heading h2{
+    margin: 2rem 0 0 0;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.restaurent-table_form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.restaurent-table_form input{
+    margin: 2rem;
+    padding: 1rem 2rem;
+    width: 300px;
+    font-weight: bold;
+    /* max-width: 10rem; */
+}
+.restaurent-table_form select{
+    width: 300px;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+/* .restaurent-table_form option{
+    padding: 1rem 2rem;
+    font-weight: bold;
+    margin: 2rem;
+} */
+.restaurent-table_input textarea{
+    width: 95%;
+    /* width: 900px; */
+    padding: 1rem;
+}
+.restaurent-table_form_button{
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: var(--color-golden);
+    color: var(--color-black);
+    border: none;
+    font-family: var(--font-base);
+    letter-spacing: 1px;
+    /* padding: 1rem; */
+    font-size: 1.2rem;
+    font-family: var(--font-base);
+    font-weight: bold;
+    cursor: pointer;
+}

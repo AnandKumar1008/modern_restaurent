@@ -1,0 +1,28 @@
+.menu{
+    background-image: url('../Images//bearGLass.jpg');
+    height: 50vw;
+    font-family: var(--font-base);
+}
+.menu_items ul{
+    color: var(--color-crimson);
+    font-size: 30px;
+    list-style: none;
+
+}
+.menu_items{
+    height:100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.menu_items ul li{
+    margin: 2rem;
+    color: var(--color-white);
+    font-weight: 800;
+    cursor: pointer;
+    /* padding: 1rem; */
+}
+.menu_items ul li:hover{
+    text-decoration: underline;
+    /* margin: 1rem; */
+}
