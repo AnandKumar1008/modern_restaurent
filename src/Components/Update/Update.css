@@ -44,7 +44,7 @@ justify-content:space-around;
   align-items: center;
 }
 .update_images_image div h4,
-p {
+.update_images_image div p {
   /* max-width; */
 
   text-align: center;

@@ -1,41 +1,40 @@
 import React from "react";
-import Nav from "./Components/Nav/Nav.js";
-import Header from "./Components/Header/Header.js";
+import { Route, Routes } from "react-router-dom";
+import { About, Aboutus, Awards, Chef, Nav } from "./Components";
+import {
+  Home,
+  BlogPage,
+  MenuPage,
+  AboutusPage,
+  OurServices,
+  Pages,
+  SignIn,
+  SignUp,
+  TablePage,
+} from "./Pages";
 import "./App.css";
-import About from "./Components/About/About.js";
-import TodaySpecial from "./Components/TodaySpecial/TodaySpecial.js";
-import Chef from "./Components/Chef/Chef.js";
-import Instagram from "./Components/Instagram/Instagram.js";
-import Menu from "./Components/Menu/Menu.js";
-import Customer from "./Components/Customer/Customer.js";
-import Awards from "./Components/Awards/Awards.js";
-import Update from "./Components/Update/Update.js";
-import Footer from "./Components/Footer/Footer.js";
-import SignUp from "./Pages/SignUp/SignUp.js";
-import SignIn from "./Pages/SignIn.js/SignIn.js";
-import { Route,Routes } from "react-router-dom";
-import Home from "./Pages/Home/Home.js";
+import OurChef from "./Pages/Pages/OurChef";
+import Contactus from "./Pages/Pages/Contactus";
+import Landing from "./Pages/Landing/Landing";
+
 export default function App() {
   return (
     <div className="app__bg">
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/sign_in" element={<SignIn/>}/>
-        <Route path="/sign_up" element={<SignUp/>}/>
-      </Routes>
       <Nav />
-      <Header />
-      <About />
-      <TodaySpecial />
-      <Chef />
-      <Menu />
-      <Customer />
-      <Awards />
-      <Update />
-      <Instagram />
-      <Footer />
-      {/* <SignIn/>
-      <SignUp/> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/pages/aboutus" element={<AboutusPage />} />
+        <Route path="/menu" element={<MenuPage />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signin" element={<SignUp />} />
+        <Route path="/pages/services" element={<OurServices />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/table" element={<TablePage />} />
+        <Route path="/pages/ourchefs" element={<OurChef />} />
+        <Route path="/pages/contactus" element={<Contactus />} />
+        <Route path="/landing" element={<Landing />} />
+      </Routes>
     </div>
   );
 }

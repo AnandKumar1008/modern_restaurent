@@ -1,25 +1,38 @@
-import React from 'react'
-import {About,Awards,Chef,Customer,Footer,Header,Instagram,Menu,Nav,TodaySpecial,Update,Aboutus,MenuStyle,Table,Delicious } from '../../Components'
+import React from "react";
+import {
+  About,
+  Awards,
+  Chef,
+  Customer,
+  Footer,
+  Header,
+  Instagram,
+  Menu,
+  Nav,
+  TodaySpecial,
+  Update,
+  Aboutus,
+  MenuStyle,
+  Table,
+  Delicious,
+  NewFooter,
+} from "../../Components";
+// import NewFooter from "../../Components/NewFooter/NewFooter";
 const Home = () => {
   return (
     <div>
-         <Nav />
       <Header />
       <About />
-      {/* <TodaySpecial /> */}
-<Delicious/>
+      <Delicious />
       <Chef />
       <Menu />
       <Customer />
       <Awards />
       <Update />
       <Instagram />
-      <Footer />
-      
-        
-      
+      <NewFooter />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

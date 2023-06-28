@@ -4,7 +4,10 @@ import {FaInstagram,FaFacebook,FaTwitter} from 'react-icons/fa'
 
 const Footer = () => {
   return (
+    <>
+    <hr/>
     <div className="footer section__padding">
+      
       <div className="footer_contact_us">
         <h2>Contact us</h2>
         <p className="footer_contact_us_address">
@@ -32,6 +35,7 @@ const Footer = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 

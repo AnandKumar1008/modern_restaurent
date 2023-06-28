@@ -1,35 +1,35 @@
+.active {
+  font-weight: bold;
+  /* background-color: var(--color-golden); */
+  font-size: 18px;
+}
 .nav_container {
   display: flex;
   justify-content: space-around;
-  background: var(--color-black);
+  background: var(--color-dark);
   color: var(--color-crimson);
   align-items: center;
 }
-.nav_container h1{
+.nav_container h1 {
   font-family: var(--font-base);
   color: var(--color-golden);
   letter-spacing: 2px;
   font-size: 3rem;
-  /* font-weight: bold; */
 }
 .nav_container_links {
   padding: 2rem;
   display: flex;
   align-items: center;
-
   justify-content: space-between;
 }
 .nav_container_links p {
   margin: 0 1rem;
-  font-family:var(--font-alt);
+  font-family: var(--font-alt);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 175%;
-
   letter-spacing: 0.04em;
-
-  
 }
 
 .nav_container_login {
@@ -40,8 +40,6 @@
   align-items: center;
 }
 .nav_container_login p {
-
-
   font-family: var(--font-alt);
   font-style: normal;
 
@@ -50,4 +48,51 @@
   letter-spacing: 0.05em;
   text-transform: capitalize;
 }
+.modern_restaurent-nav_pages {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.modern_restaurent-nav_pages div:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.modern-restaurent-nav_pages_item {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #2c3333;
+  display: none;
+  top: 100%;
+  /* width: 100%; */
+  /* border: 2px solid blue; */
+}
+.modern_restaurent-nav_pages:hover .modern-restaurent-nav_pages_item {
+  display: block;
+}
+.modern-restaurent-nav_pages_item span {
+  /* position: absolute; */
+  /* flex: 1; */
+  display: block;
+  /* list-style: none; */
+  white-space: nowrap;
+  text-align: start;
+  font-size: 1.2rem;
+  border: none;
+  padding: 1rem;
+  background-color: golden;
+  width: 100%;
+  font-family: var(--font-alt);
+  color: var(--color-golden);
+  /* border: 2px solid red; */
+}
+
+.modern-restaurent-nav_pages_item span:hover {
+  background-color: #2d2727;
+  cursor: pointer;
+}

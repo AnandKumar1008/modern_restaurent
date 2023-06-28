@@ -18,10 +18,11 @@
   height: 100vh;
   max-height: 100%;
 }
-.sign_in_form  h1 {
+.sign_in_form h1 {
   margin-bottom: 2rem;
 }
-.sign_in_form  input,.sign_in_form button {
+.sign_in_form input,
+.sign_in_form button {
   padding: 0.8rem 1rem;
   margin: 1rem;
   width: 20rem;

@@ -1,0 +1,45 @@
+.modern_restaurent-blog {
+  padding: 4rem;
+}
+.modern_restaurent-blog_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.modern_restaurent-blog_grid_items {
+  max-width: 100%;
+  /* border: 1px solid red; */
+  font-family: var(--font-alt);
+}
+.modern_restaurent-blog_grid_items img {
+  max-width: 100%;
+  height: 60vh;
+}
+.modern_restaurent-blog_grid_items h2 {
+  text-align: start;
+  width: 90%;
+  color: var(--color-golden);
+  margin: 1rem;
+}
+.modern_restaurent-blog_grid_items p {
+  text-align: start;
+  width: 90%;
+  margin: 1rem;
+}
+.modern_restaurent-blog_grid_items p:nth-of-type(1) {
+  color: white;
+}
+.modern_restaurent-blog_grid_items p:nth-of-type(2) {
+  color: var(--color-golden);
+}
+.modern_restaurent-blog_grid_items div {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+.modern_restaurent-blog_grid_items div span {
+  padding: 1rem;
+}

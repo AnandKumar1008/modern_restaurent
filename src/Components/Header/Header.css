@@ -1,5 +1,5 @@
 .header_container {
-  background: var(--color-black);
+  background: var(--color-dark);
   padding: 200px;
 }
 .header_container-section {
@@ -46,11 +46,17 @@
 }
 .explore {
   background-color: #dcca87;
-  padding: 5px;
+  padding: 1rem;
   font-family: var(--font-base);
   padding: 0.5rem 1rem;
   font-weight: bold;
   text-decoration: none;
   border: none;
   cursor: pointer;
+  margin: 1rem;
+}
+@media screen and (max-width: 1000px) {
+  .header_container-section {
+    flex-direction: column;
+  }
 }

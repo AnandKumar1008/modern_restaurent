@@ -9,6 +9,7 @@
   --color-crimson: #f5efdb;
   --color-grey: #aaaaaa;
   --color-white: #ffffff;
+  --color-dark:#000;
 }
 * {
   box-sizing: border-box;

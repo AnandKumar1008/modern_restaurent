@@ -1,0 +1,9 @@
+export { default as Home } from "./Home/Home";
+export { default as BlogPage } from "./BlogPage/BlogPage";
+export { default as MenuPage } from "./MenuPage/MenuPage";
+export { default as AboutusPage } from "./Pages/AboutusPage";
+export { default as OurServices } from "./Pages/OurServices";
+export { default as Pages } from "./Pages/Pages";
+export { default as SignIn } from "./SignIn/SignIn";
+export { default as SignUp } from "./SignUp/SignUp";
+export { default as TablePage } from "./TablePage/TablePage";

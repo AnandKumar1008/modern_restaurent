@@ -1,0 +1,112 @@
+.modern_restaurent-services {
+  /* max-width: 100%; */
+  height: 80vh;
+}
+.modern-restaurent_services_recipes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.modern_restaurent-services > * {
+  flex: 1;
+}
+.modern_restaurent-services:hover {
+  background-image: none;
+}
+
+.modern_restaurent-services {
+  max-width: 100%;
+  background-size: cover;
+}
+
+.modern_restaurent-services_item {
+  /* opacity: 0; */
+  border: 1px solid white;
+  border-top: none;
+  border-bottom: none;
+  height: 80vh;
+  transition: bottom 2s ease-out;
+}
+
+.modern_restaurent-services_item img {
+  max-width: 100%;
+  height: 80vh;
+  opacity: 0;
+}
+.text_changing h3 {
+  color: black;
+  font-weight: 400;
+  font-family: var(--font-alt);
+}
+.text_changing p {
+  color: var(--color-white);
+  font-family: var(--font-alt);
+  font-weight: 200;
+  font-size: 1.2rem;
+  /* font-family: var(--font-base); */
+}
+.text_changing {
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+  font-size: 2rem;
+  font-family: var(--font-base);
+  transform: translate(0%, -100%);
+  color: var(--color-white);
+  /* opacity: npm; */
+  padding: 10px;
+  transition: bottom 1s ease-out;
+}
+.modern_restaurent-services_item:hover .text_changing {
+  bottom: 100px;
+}
+
+.modern_restaurent-services_heading {
+  margin: 2rem 0;
+}
+.modern_restaurent-services_heading h3 {
+  text-align: center;
+  color: var(--color-golden);
+  font-family: var(--font-alt);
+  letter-spacing: 1px;
+}
+.modern_restaurent-services_heading h1 {
+  /* max-width: 40%; */
+  /* padding: 0 6rem; */
+  width: 50%;
+  margin: 1rem auto;
+  text-align: center;
+  color: white;
+  font-family: var(--font-alt);
+  font-size: 3rem;
+  /* margin: 1rem 0; */
+}
+.modern_restaurent-services_heading p {
+  text-align: center;
+  width: 60%;
+  color: var(--color-golden);
+  font-family: var(--font-alt);
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+.modern_restaurent-services_heading_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.modern_restaurent-services_heading_button button {
+  padding: 0.9rem;
+  margin: 2rem;
+  font-family: var(--font-base);
+  background-color: var(--color-golden);
+  font-weight: bold;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

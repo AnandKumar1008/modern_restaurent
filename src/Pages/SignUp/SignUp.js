@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./SignUp.css";
 import { Nav } from "../../Components";
+import { useNavigate } from "react-router-dom";
 const SignUp = () => {
+  const navigate=useNavigate();
   const [userDetails, setUserDetails] = useState({
     username: "",
     password: "",
@@ -60,7 +62,7 @@ const SignUp = () => {
   };
   return (
     <>
-    <Nav/>
+    {/* <Nav/> */}
     <div className="sign_up section__padding">
       <div className="sign_up_form">
         <form action="" onSubmit={handleSubmit} >
@@ -110,7 +112,7 @@ const SignUp = () => {
 
           <button>Sign Up</button>
           <p>
-            Have an account?<span className="sign_up_form_sign_in"> Sign In</span>
+            Have an account?<span className="sign_up_form_sign_in" onClick={()=>navigate("/signin")}> Sign In</span>
           </p>
         </form>
       </div>

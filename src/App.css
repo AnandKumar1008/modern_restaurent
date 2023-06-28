@@ -1,25 +1,21 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.section__padding{
+.section__padding {
   padding: 4rem 6rem;
 }
-.flex__center{
+.flex__center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.app__bg{
-  background: url('./Components/Images/bg.png');
+.app__bg {
+  /* background: url('./Components/Images/bg.png'); */
+  background-color: var(--color-black);
   background-position: center;
   background-size: cover;
-  background-repeat:repeat;
-  background-attachment:fixed;
-}
-.active{
-  font-weight: bold;
-  /* background-color: var(--color-golden); */
-  font-size: 18px;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
